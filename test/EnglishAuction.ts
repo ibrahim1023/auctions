@@ -3,7 +3,7 @@ import { time } from "@nomicfoundation/hardhat-toolbox/network-helpers";
 import hre from "hardhat";
 import { ethers } from "ethers";
 
-describe("EnglishAuction", function () {
+describe("English Auction", function () {
   let englishAuction: any;
   let mockERC721: any;
   let seller: any;
